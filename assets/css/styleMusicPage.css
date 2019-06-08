@@ -9,7 +9,7 @@ body {
 
 .MainTitles {
     
-    font-family: 'Cinzel', serif;
+    /* font-family: 'VT323', monospace; */
     font-weight: bolder;
     font-size: 350%;
     margin-top: 8%;
@@ -20,7 +20,7 @@ body {
 
 .bg-primary {
     padding-top: 0%;
-    background-image: url("../images/starrydesktop.jpg") !important;
+    background-image: url("../images/MusicPageBG.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
@@ -74,17 +74,29 @@ body {
 
 
 .name {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
     font-weight: bolder;
     font-size: 350%;
     margin-top: 8%;
-    color: rgb(255, 251, 251);
+    color: rgb(255, 255, 255);
+
+}
+
+.genres{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 250%;
+    color:whitesmoke;
+    
+
 
 }
 
 .profession {
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
+    text-align: center;
     font-size: 250%;
     color: rgb(255, 251, 251);
 }

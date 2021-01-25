@@ -60,7 +60,7 @@ body {
 }
 
 .container {
-    width: auto;
+    width: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -86,7 +86,7 @@ body {
 .genres{
     text-align: center;
     font-weight: bolder;
-    font-size: 250%;
+    font-size: 100%;
     color:rgb(0, 0, 0);
     font-family: 'Knewave', cursive;
 
@@ -189,6 +189,8 @@ body {
 .projectName {
     color: black !important;
     font-weight: bolder;
+    
+}
 }
 
 .contact {

@@ -16,19 +16,33 @@ body {
     color: rgb(255, 251, 251);
 
 
+
+}
+
+#top {
+color: black;
+
 }
 
 .bg-primary {
     padding-top: 0%;
-    background-image: url("../images/coppermines.jpg") !important;
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
+   
 }
+
+.headerColorChange {
+
+    background-color: black;
+}
+
 
 
 .navPosition {
     padding-bottom: 7%;;
+    color: black;
 }
 
 @media screen and (max-width: 710px) {
@@ -83,6 +97,16 @@ body {
 
 }
 
+.name2 {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 350%;
+    margin-top: 8%;
+    color: rgb(255, 255, 255);
+
+}
+
 .genres{
     text-align: center;
     font-weight: bolder;
@@ -104,6 +128,36 @@ body {
 
 
 }
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../images/coppermines.jpg");
+  
+    /* Set a specific height */
+    height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    /* The image used */
+    background-image: url("../images/fishing.JPG");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
 
 .profession {
     font-family: 'Knewave', cursive;
@@ -191,7 +245,7 @@ body {
     font-weight: bolder;
     
 }
-}
+
 
 .contact {
     text-align: center;
